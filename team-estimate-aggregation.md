@@ -1,7 +1,7 @@
 # Team tasks estimate aggregation.
 This jql lists all the tasks of a TEAM_NAME.
 It will includes the summarize of the Original Estimate, Remainin Estimate and Time Spent.
-The jql functions `aggregateExpression` require [Adaptive Script Runner addon](https://scriptrunner.adaptavist.com/latest/jira/quickstart.html)
+The jql functions `aggregateExpression` require [Adaptavist ScriptRunner addon](https://scriptrunner.adaptavist.com/latest/jira/quickstart.html)
 ```sql
 assignee in membersOf("TEAM_NAME") 
 AND category in (PROJECT_CATEGORY_LIST) 
