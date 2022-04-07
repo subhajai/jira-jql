@@ -50,6 +50,6 @@ sub getUserWorklog {
 ```
 Call a function
 ```
-my $jiea = new modules::JIRA;
-my $worklogs = $jira-getWorklog({ user=> "yoda", date=> "2018-07-20" });
+my $jira = new modules::JIRA;
+my $worklogs = $jira->getWorklog({ user=> "yoda", date=> "2018-07-20" });
 ```
